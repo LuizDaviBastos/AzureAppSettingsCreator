@@ -1,6 +1,4 @@
 ﻿using AzureAppSettingsCreator;
-using forwpf = System.Windows;
-
 
 public class Program
 {
