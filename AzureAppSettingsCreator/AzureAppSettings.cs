@@ -145,6 +145,7 @@ namespace AzureAppSettingsCreator
                     Name = string.Join(SEPARATOR, keys),
                     Value = value
                 };
+                setting.Name = setting.Name.Replace(":", SEPARATOR);
 
                 flattenedJson.Add(setting);
             }
